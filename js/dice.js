@@ -17,7 +17,7 @@ dice.roll = (diceNotationString) => {
 };
 
 dice.toDiceNotation = ({ sides, count }) => {
-    console.log(`rolling ${count}d${sides}`);
+    // console.log(`rolling ${count}d${sides}`);
     return `${count}d${sides}`;
 };
 
